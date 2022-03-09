@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page17" Padding="50">
+    <ContentPage.Content>
+        <StackLayout>
+            
+<Image Source="productimg.jpg" x:Name="img1" HeightRequest="260" WidthRequest="200" Aspect="AspectFit" />
+  
+<Entry Placeholder="Enter no of products sold by salesperson" x:Name="txtProduct" />
+            
+<Label Text="" x:Name="lblResult" FontSize="Medium" TextColor="Red" />
+<Button Text="SUBMIT" Clicked="btnsubmit" />  
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

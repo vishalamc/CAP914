@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page2" Padding="20">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtunit"  Placeholder="Enter meter reading(Unit)" />
+            
+          <Label x:Name="lblmsg"  />
+            
+            <Button Clicked="btnsubmit" Text="SUBMIT" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

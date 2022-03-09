@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page14" BackgroundColor="Yellow" Padding="70">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Employee Records" TextColor="Red" FontSize="Medium"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+<Entry Placeholder="Enter Employee Name" x:Name="txtEmpName" />
+<Entry Placeholder="Enter designation" x:Name="txtDesignation" />
+<Entry Placeholder="Enter Phone number" x:Name="txtphNo" />
+<Label Text="" TextColor="Red" FontSize="Medium" x:Name="lblMsg" />
+<Button Text="ADD" Clicked="btnAdd" />
+<Button Text="VIEW" Clicked="btnView" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

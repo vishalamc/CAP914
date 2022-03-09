@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page24" BackgroundColor="BurlyWood" Padding="50">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="DISCUSSION FORUM" TextColor="Red" FontSize="Medium"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="Topics:Mobile App development" TextColor="Blue" FontSize="Small" />
+            
+<Entry Placeholder="Enter your name" x:Name="txtName" />    
+            <Editor x:Name="txtEditor" BackgroundColor="Yellow" HeightRequest="100" WidthRequest="200" />
+                <Button Text="SUBMIT" Clicked="btnsubmit" />
+                <Image Source="Profileimages.png" x:Name="img1"  HeightRequest="70" HorizontalOptions="Start" WidthRequest="70" Aspect="AspectFit" />
+                <Label x:Name="lblName" FontSize="Small" TextColor="Black" />
+                <Label x:Name="lblMsg" FontSize="Small" TextColor="Blue" />
+                <Label x:Name="lblDate" FontSize="Small" TextColor="Red" />
+                <Label Text="Give Ratings:" FontSize="Small" TextColor="Blue" />
+                <Stepper Minimum="0" Maximum="5" Increment="1" x:Name="stepper1" ValueChanged="onstepperclick" />
+                <Label x:Name="lbl1" FontSize="Large" VerticalOptions="Start" TextColor="red" />
+                <Label x:Name="lblrate"  FontSize="Small" TextColor="Red" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

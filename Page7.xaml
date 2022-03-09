@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page7" Padding="60" BackgroundColor="Yellow">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="txtMilk" Placeholder="Enter the number of liters of milk purchased by the vendor" />
+            
+         
+<Label Text="" x:Name="txtMsg1" TextColor="Red" FontSize="Medium" />
+            <Label Text="" x:Name="txtMsg2" TextColor="Red" FontSize="Medium" />
+<Button Text="SUBMIT" Clicked="btnsubmit" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

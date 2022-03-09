@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page20" Padding="50">
+    <ContentPage.Content>
+        <StackLayout>
+          
+<Label Text="Book Library App" FontSize="Medium" TextColor="Red" />  
+<Image Source="bookimg.jpg" x:Name="img1" HeightRequest="150" WidthRequest="500" Aspect="AspectFill" HorizontalOptions="Center"  />
+
+            
+<Entry Placeholder="Enter Book Name" x:Name="txtBook" />
+<Entry Placeholder="" x:Name="txtDate" />
+<Label Text="Select Return Date" />
+<DatePicker x:Name="ddate" MinimumDate="01/01/2022" MaximumDate="01/01/2023" DateSelected="ondateselected" />
+            <Button Text="BOOK ISSUES" Clicked="btnissues" />
+            <Button Text="BOOK RETURN" Clicked="btnreturn" />
+            
+<Label x:Name="lblmsg" TextColor="Red" FontSize="Medium" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

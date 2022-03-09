@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page30" Padding="30" BackgroundColor="HotPink">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Photo Album" HorizontalOptions="Center"  TextColor="Blue" FontSize="Medium" />
+            <ProgressBar x:Name="progressbar1" IsVisible="false" HeightRequest="100" WidthRequest="100"  />
+
+            <Label x:Name="lbl"  IsVisible="false" Text="{Binding Progress,Source={x:Reference progressbar1}}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" TextColor="Red" />
+
+            <Image x:Name="img1" HeightRequest="150" WidthRequest="120" IsVisible="false" />
+            
+<Button Text="Show" Clicked="btnshow" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

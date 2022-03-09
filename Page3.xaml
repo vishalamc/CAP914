@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page3" Padding="40" BackgroundColor="Yellow">
+    <ContentPage.Content>
+        <StackLayout>
+           
+            <Entry Placeholder="Enter no. of coins for 10 Rs" x:Name="txtvaluefor10" />
+            <Entry Placeholder="Enter no. of coins for 5 Rs" x:Name="txtvaluefor5" />
+            <Entry Placeholder="Enter no. of coins for 2 Rs" x:Name="txtvaluefor2" />
+            <Entry Placeholder="Enter no. of coins for 1 Rs" x:Name="txtvaluefor1" />
+
+            <Label FontSize="Medium" TextColor="Red"  x:Name="lblResult" />
+            
+<Button Text="SUBMIT" Clicked="btnSubmit" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

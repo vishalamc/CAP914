@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page25" Padding="50" BackgroundImageSource="nature.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image x:Name="img1" Source="ph1.jpg" IsVisible="false" />
+            <Image x:Name="img2" Source="ph2.jpg" IsVisible="false" />
+
+            <Slider Minimum="0" Maximum="20000" x:Name="myslider" ValueChanged="onvaluechanged" />
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

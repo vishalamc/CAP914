@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page28" Padding="20" BackgroundColor="Bisque">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Movie Rating App" FontSize="Medium" TextColor="Blue"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image x:Name="imgmovie" Aspect="AspectFit" HeightRequest="150" WidthRequest="200" />
+      
+<Slider Minimum="0" Maximum="5" ValueChanged="btnslider" />
+            
+<Label Text="Give Rating" />
+            
+<Stepper Minimum="0" Maximum="5" Increment="1" ValueChanged="btnstepper" />
+            
+<Button Text="SUBMIT" Clicked="btnsubmit" />
+
+<Label Text="" x:Name="lblmovie" FontSize="Medium" />
+            <Label x:Name="lblstar1" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar2" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar3" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar4" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar5" FontSize="Large" TextColor="white" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

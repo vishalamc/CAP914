@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page8" Padding="70" BackgroundColor="Yellow">
+    <ContentPage.Content>
+        <StackLayout>
+           
+<Entry Placeholder="Enter your age" x:Name="txtAge" />
+            
+<Entry Placeholder="Enter fasting/notfasting" x:Name="txtFasting" />
+            
+<Label Text="" x:Name="lblmsg" FontSize="Medium"  TextColor="Red" />
+            
+<Button Text="SUBMIT" Clicked="btnsubmit" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page13" Padding="70" BackgroundColor="Yellow">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Appointment Management System" TextColor="Red" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+<Entry Placeholder="Enter Name" x:Name="txtName" />
+<Entry Placeholder="Enter Age" x:Name="txtAge" />
+<Entry Placeholder="Enter Phone no" x:Name="txtPhno" />
+<DatePicker x:Name="datepicker" DateSelected="onDateSelected" MinimumDate="01/01/1990" MaximumDate="12/31/2022" />
+<TimePicker x:Name="ddtime" />
+ 
+ <Button Text="SUBMIT" Clicked="btnSubmit" />
+ <Label Text="" TextColor="Red" FontSize="Medium"  x:Name="lblID" />
+ <Label Text="" x:Name="lblName" />
+ <Label Text="" x:Name="lblAge" />
+ <Label Text="" x:Name="lblPh" />
+ <Label Text="" x:Name="lblDate" />
+ <Label Text="" x:Name="lblTime" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

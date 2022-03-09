@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page11" Padding="70">
+    <ContentPage.Content>
+        <StackLayout>
+         
+<Entry Placeholder="Enter amount" x:Name="txtAmount" />
+            
+<Label Text="" x:Name="lblResult"  />
+            
+<Button Text="DEPOSIT" Clicked="btnDeposit" />
+<Button Text="WITHDRAWAL" Clicked="btnWithdrawal" />
+<Button Text="CHECK BALANCE" Clicked="btnCheckBalance" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

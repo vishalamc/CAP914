@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page27" Padding="50">
+    <ContentPage.Content>
+        <StackLayout>
+            
+<BoxView HeightRequest="100" WidthRequest="150" x:Name="box1" />
+            
+<Slider Minimum="0" Maximum="20" ValueChanged="btnslider" />
+            
+            
+<Stepper Minimum="0" Maximum="5" Increment="1" ValueChanged="btnsteeper" />
+            
+            
+<Label x:Name="lblstar1" FontSize="Large" TextColor="white" />
+
+<Label x:Name="lblstar2" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar3" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar4" FontSize="Large" TextColor="white" />
+            <Label x:Name="lblstar5" FontSize="Large" TextColor="white" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page9" Padding="70">
+    <ContentPage.Content>
+        <StackLayout>
+            
+<Entry Placeholder="Enter employee ID" x:Name="txtID" />
+            
+<Entry Placeholder="Enter Employee Name" x:Name="txtName" />
+            
+<Label Text="" x:Name="lblResult" />
+            
+<Button Text="SUBMIT" Clicked="btnsubmit" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
