@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page35" Padding="20">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="style1" TargetType="Label">
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+            <Style x:Key="style2" TargetType="Label">
+                <Setter Property="TextColor" Value="Blue" />
+                <Setter Property="FontSize" Value="Medium" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+       
+        <StackLayout>
+           
+            <Label Text="This is my Label1" Style="{StaticResource style1}" />
+            <Label Text="This is my Label2" Style="{StaticResource style1}" />
+            <Label Text="This is my Label3" Style="{StaticResource style1}" />
+
+            <Label Text="This is my Label4" Style="{StaticResource style2}" />
+            <Label Text="This is my Label5" Style="{StaticResource style2}" />
+            <Label Text="This is my Label6" Style="{StaticResource style2}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

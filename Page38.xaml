@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page38" Padding="30">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="parentStyle" TargetType="View">
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="BackgroundColor" Value="Green"></Setter>
+            </Style>
+            <Style x:Key="childStyle" BasedOn="{StaticResource parentStyle}"  TargetType="Entry">
+                <Setter Property="FontSize" Value="Medium"></Setter>
+                <Setter Property="TextColor" Value="Red"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtname" Style="{StaticResource childStyle}"  Placeholder="Enter your Name" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

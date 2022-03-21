@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page36" Padding="20">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="style1" TargetType="Label">
+                <Setter Property="TextColor" Value="Red"></Setter>
+                <Setter Property="FontSize" Value="Large"></Setter>
+            </Style>
+            <Style x:Key="style2" TargetType="Label">
+                <Setter Property="TextColor" Value="Blue"></Setter>
+                <Setter Property="FontSize" Value="Medium"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label x:Name="lbl" Style="{DynamicResource style1}" Text="I am using Dynamic Style" />
+            <Button Text="SUBMIT" Clicked="btnsubmit" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
