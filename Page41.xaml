@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewMobileApp.Page41" BackgroundColor="Aquamarine">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="My Music Album" FontSize="Medium" TextColor="Red" />
+            </StackLayout>
+            <StackLayout>
+                <Frame BackgroundColor="Black"  HeightRequest="30" WidthRequest="100" CornerRadius="20">
+                    <Button Text="Latest Hindi Songs" TextColor="White" Clicked="btnHindiSongs" />
+                </Frame>
+                <Frame BackgroundColor="Black"  HeightRequest="30" WidthRequest="100" CornerRadius="20">
+                    <Button Text="Latest Telugu Songs" TextColor="White" Clicked="btnTeluguSongs" />
+                </Frame>
+                <Frame BackgroundColor="Black" HeightRequest="30" WidthRequest="100" CornerRadius="20">
+                    <Button Text="Latest Tamil Songs" TextColor="White" Clicked="btnTamilSongs" />
+                </Frame>
+                <Frame BackgroundColor="Black" HeightRequest="30" WidthRequest="100" CornerRadius="20">
+                    <Button Text="Latest Punjabi Songs" TextColor="White" Clicked="btnPunjabiSongs" />
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
